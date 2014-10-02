@@ -7,18 +7,16 @@
  */
 
 /**
- * Description of BooksModel
+ * Description of User
  *
  * @author jano
  */
-class Book extends AppModel {
+class User extends AppModel {
+
     public $hasMany = array(
-        'Comment' => array(
-            'className'     => 'Comment'
+        'Comment'   => array(
+            'className' => 'Comment'
         )
     );
-    
-    public $belongsTo = 'Publisher';
-    
     
 }

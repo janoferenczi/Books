@@ -3,16 +3,14 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/var/www/books/app/Controller/AppController.php</file>
-            <file>file:/var/www/books/app/View/Book/index.ctp</file>
-            <file>file:/var/www/books/app/Config/bootstrap.php</file>
-            <file>file:/var/www/books/app/Model/Book.php</file>
-            <file>file:/var/www/books/app/Config/routes.php</file>
-            <file>file:/var/www/books/app/Model/AppModel.php</file>
-            <file>file:/var/www/books/app/Config/database.php</file>
-            <file>file:/var/www/books/app/Controller/BookController.php</file>
-            <file>file:/var/www/books/app/View/Layouts/default.ctp</file>
-            <file>file:/var/www/books/app/Config/core.php</file>
+            <file>file:/var/www/Books/app/Model/Comment.php</file>
+            <file>file:/var/www/Books/app/View/Book/index.ctp</file>
+            <file>file:/var/www/Books/app/Model/Book.php</file>
+            <file>file:/var/www/Books/app/webroot/index.php</file>
+            <file>file:/var/www/Books/app/Controller/BookController.php</file>
+            <file>file:/var/www/Books/app/Model/Publisher.php</file>
+            <file>file:/var/www/Books/app/Model/User.php</file>
+            <file>file:/var/www/Books/app/index.php</file>
         </group>
     </open-files>
 </project-private>

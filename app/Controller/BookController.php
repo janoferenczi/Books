@@ -15,8 +15,13 @@ class BookController extends AppController {
 
     public $helpers = array("Html","Form");
     
+    public $uses = array('Book','User');
+
+
     public function index(){
-        $this->set("books",$this->Book->find("all"));
+        $books = $this->Book->find("all");
+               
+        $this->set("books",$books);
     }
         
 }

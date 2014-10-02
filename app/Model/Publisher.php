@@ -7,18 +7,15 @@
  */
 
 /**
- * Description of BooksModel
+ * Description of Publisher
  *
  * @author jano
  */
-class Book extends AppModel {
+class Publisher extends AppModel{
     public $hasMany = array(
-        'Comment' => array(
-            'className'     => 'Comment'
+        'Book'  =>array(
+            'className'     => 'Book'
         )
     );
-    
-    public $belongsTo = 'Publisher';
-    
     
 }
